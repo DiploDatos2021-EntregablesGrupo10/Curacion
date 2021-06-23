@@ -1,1 +1,1 @@
-# Curacion
+# Curación
