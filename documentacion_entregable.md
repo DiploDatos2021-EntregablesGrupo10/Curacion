@@ -6,7 +6,7 @@ En esta notebook, vamos a cargar el conjunto de datos de la compentencia Kaggle 
 
 Utilizaremos el conjunto de datos reducido producido por DanB. Hemos subido una copia a un servidor de la Universidad Nacional de Córdoba para facilitar su acceso remoto.
 
-## Ejercicio 1:
+## Ejercicio 1: Limpieza de datos, selección de columnas y agregado de Airbnb
 **Pasos para la limpieza del data set:**
 - Analizar la distribución de los precios de las propiedades utilizando la columna 'Price'. 
 - Analizar el comportamiento del precio de las propiedades con la intención de eliminar valores extremos. 
@@ -88,13 +88,13 @@ Utilizaremos el conjunto de datos reducido producido por DanB. Hemos subido una 
 - Imputar la columna review_scores_mean por el valor promedio mínimo
 - Imputar los precios diarios, mensuales y semanales. Dada la considerable variación de precios imputamos por el valor medio agrupado según cada suburbio
 
-### Ejercicio 3: Archivo
+### Ejercicio 3: Generación de archivo
 **Pasos para generar el archivo:**
 - Crear y guardar en un archivo el dataframe con todas las transformaciones aplicadas
 
 
 ## Trabajo práctico entregable - parte 2
-### Ejercicio 1: 
+### Ejercicio 1: Encode
 **Pasos para Encoding:**
 - Analizar archivo extraido del ejercicio anterior
 - Reemplazar los NaN si es posible
@@ -117,7 +117,7 @@ Utilizaremos el conjunto de datos reducido producido por DanB. Hemos subido una 
 - Convertir matriz a df
 - Guardar el df en un .csv
 
-### Ejercicio 2:
+### Ejercicio 2: Imputación
 **Pasos para la imputación KNN:**
 - Agregar las columnas de interes
 	- YearBuilt
@@ -155,7 +155,7 @@ Utilizaremos el conjunto de datos reducido producido por DanB. Hemos subido una 
 - Volver al df previo a PCA (el df obtenido de la normalizacion) y agregar dos columnas con las dos primeras componentes principales
 - Graficar un sample de 1000 lineas de la componente principal 1 vs la 2 empleando como hue's las columnas normalizadas YearBuilt y BuildingArea
 
-### Ejercicio 4:
+### Ejercicio 4: Composición del resultado
 **Pasos para la composición del resultado:**
 - Detallar las nuevas columnas
 - Analizar las dimensiones actuales y las del dataframe original
