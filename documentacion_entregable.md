@@ -6,7 +6,7 @@ En esta notebook, vamos a cargar el conjunto de datos de la compentencia Kaggle 
 
 Utilizaremos el conjunto de datos reducido producido por DanB. Hemos subido una copia a un servidor de la Universidad Nacional de Córdoba para facilitar su acceso remoto.
 
-## Ejercicio 1: Limpieza de datos, selección de columnas y agregado de Airbnb
+### Ejercicio 1: Limpieza de datos, selección de columnas y agregado de Airbnb
 **Pasos para la limpieza del data set:**
 - Analizar la distribución de los precios de las propiedades utilizando la columna 'Price'. 
 - Analizar el comportamiento del precio de las propiedades con la intención de eliminar valores extremos. 
